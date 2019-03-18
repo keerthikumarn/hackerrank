@@ -1,22 +1,19 @@
-package com.keerthi.hackerrank.problems;
+package com.hackerrank.samples;
 
 import java.util.Scanner;
 
 public class Solution {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		int i = scan.nextInt();
+		double d = scan.nextDouble();
+		String s = "";
+		while (scan.hasNext()) {
+			s = scan.nextLine();
+		}
 
-  static int solveMeFirst(int a, int b) {
-   return a + b;
-  }
-
-public static void main(String[] args) {
-      Scanner in = new Scanner(System.in);
-      int a;
-      a = in.nextInt();
-      int b;
-      b = in.nextInt();
-      int sum;
-      sum = solveMeFirst(a, b);
-      System.out.println(sum);
- }
-
+		System.out.println("String: " + s);
+		System.out.println("Double: " + d);
+		System.out.println("Int: " + i);
+	}
 }
